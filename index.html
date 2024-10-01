@@ -295,7 +295,7 @@ window.addEventListener('scroll', function() {
 });
 
 function changeImage() {
-  const scroll = window.scrollY + (window.innerHeight / 3);
+  const scroll = window.scrollY + (window.innerHeight / 4);
   [...document.getElementsByClassName('section')].forEach(el => {
     el.classList.remove('active');
     if (el.offsetTop <= scroll && el.offsetTop + el.offsetHeight > scroll) {
