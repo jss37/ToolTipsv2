@@ -1,0 +1,311 @@
+<html>
+<style>
+body {
+margin-left: 0;
+  background-color: #0c5449;
+  
+
+  
+}
+
+.section {
+  display: flex;
+ min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  
+  
+  
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  height: 800px;
+  width: 800px;
+}
+
+.image {
+  height: 95%;
+  position:fixed;
+  width: 99.9%;
+  top:3.5vw;
+  background-color: white;
+  background-size: contain;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  filter: blur(0px);
+  opacity: 0;
+  transition: filter 1s ease, opacity 1s ease;
+  transition-duration: 0s;
+  border: 5px solid #0c5449;
+}
+
+.section.active .image {
+  opacity: 1;
+  filter: blur(0);
+  
+
+}
+
+.links {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    text-align: center;
+  z-index:2;
+   top: 0;
+   width: 100%;
+   background-color: #0c5449;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  padding: 12px;
+
+}
+.button {
+  background-color:#0c5449; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  outline: none;
+
+}
+
+.button:hover {
+  background-color: #ffc000;
+  color: white;
+}
+.divider{
+    width:2vw;
+    height:auto;
+    display:inline-block;
+    background-color: #0c5449;
+}
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+a:hover,a:visited:hover {
+  color: #0c5449;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+    @media only screen and (max-width: 1400px) {
+            
+
+            .image {
+               margin-top:10vw;
+    }}
+
+          
+</style>
+<body>
+    <nav>
+        <ul>
+          <button class="button"><li><img src="./favicon-76-reversed.png" style="height:3vw;width:3vw"></a></li></button>
+          <button class="button"><li><a href="https://phoenix.wayne.edu">Home</a></li></button>
+          <div class="divider"></div>
+           <button class="button"><li><a href="https://phoenix-data.wayne.edu/">Interactive Map</a></li></button>
+          <div class="divider"></div>  
+            <button class="button"><li><a href="#home">Return to the top</a></li></button>
+            <div class="divider"></div>
+            <button class="button"><li><a href="https://phoenix.wayne.edu/learning-lab">Learning Lab</a></li></button>
+            <div class="divider"></div>
+            <button class="button"><li><a href="https://jss37.github.io/ToolTipNonAnimated/">Non-Animated Version</a></li></button>
+          </ul>
+    </nav>
+
+<div class="section" id="home">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide3.SVG')" img alt="Health information is on the left, place information is on the right"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide4.SVG')" img alt="Use group views, Health Metric Information, Advanced Displays, Place Information. Filters and Layers, Share your map"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide5.SVG')" img alt="View by topic(user group) or browse by topic"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide6.SVG')" img alt="Compare metrics & time periods"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide7.SVG')" img alt="Find a place"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide8.SVG')" img alt="Find places with specific characteristics"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide9.SVG')" img alt="Save & share what you see"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide11.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide12.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide13.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide14.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide15.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide16.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide17.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide18.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide19.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide20.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide21.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide22.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide23.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide24.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide25.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide27.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide28.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide29.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide30.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+<div class="section">
+  <div class="image-container">
+    <div class="image" style="background-image: url('./Slide31.SVG')" img alt="Use-Case Video Example Videos"></div>
+  </div>  
+</div>
+</div>
+
+<script>
+  let isScrolling;
+
+window.addEventListener('scroll', function() {
+  if (!isScrolling) {
+    window.requestAnimationFrame(function() {
+      changeImage();
+      isScrolling = false;
+    });
+  }
+  isScrolling = true;
+});
+
+function changeImage() {
+  const scroll = window.scrollY + (window.innerHeight / 3);
+  [...document.getElementsByClassName('section')].forEach(el => {
+    el.classList.remove('active');
+    if (el.offsetTop <= scroll && el.offsetTop + el.offsetHeight > scroll) {
+      el.classList.add('active');
+    }
+  });
+}
+
+// Initial call
+changeImage();
+</script></body>
+
+</html>
